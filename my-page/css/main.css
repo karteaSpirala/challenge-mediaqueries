@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header-text{
+  margin-top: -30vh;
+
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.text-center {
+  text-align: center;
+}
+h1 {
+
+  font-size: 3.5rem;
+  font-weight: 400;
+}
+.padding {
+  padding: 3rem 3rem 0 3rem;
+}
+.services {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+button {
+  background-color: #007BFF;
+  border-radius: 5px;
+  padding: 0.5rem;
+  border: none;
+  color: white;
+  font-weight: 500;
+  font-size: 0.9rem;
+  outline: none;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+p {
+ line-height: 1.5;
+ font-size: 1rem;
+}
+img {
+  max-width: 100%;
+  width: 384px;
+  height: 310px;
+}
+figure {
+  border-bottom: 4px solid rgb(180, 180, 180);
+}
+
+header div div.display-none-mobile  {
+  display: none;
+}
+header div.menu-bar {
+background-color: #343A40;
+padding: 1rem;
+color: white;
+font-weight: 800;
+z-index: 1000;
+width: 100%;
+position: fixed;
+font-size: 1.4rem;
+}
+.nav-rigth {
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.header-text {
+  line-height: ;
+  transform: translateY(130%);
+}
+h3 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+a.contact {
+  color: #969696;
+}
+a:hover {
+  color: #969696;
+}
+.footer {
+  background-color: #343A40;
+  margin-top: 2.5rem;
+  padding: 1rem;
+  color: white;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 5px 15px;
+  font-size: 1.15rem;
+}
+ul li a:hover {
+  color: #969696;
+}
+
+footer{
+  margin-left: 60vh;
+}
+
+@media (min-width: 430px) {
+  .header-text {
+    line-height: 2 ;
+    transform: translateY(100%);
+  }
+ }
+@media (min-width: 768px) {
+  header div div.display-none-mobile {
+    display: block;
+  }
+  header div div.display-none-desktop {
+    display: none;
+  }
+  .text-center {
+    text-align: justify;
+  }
+  .header-text, figure  {
+    text-align: center;
+  }
+  .header-text {
+  line-height: 2;
+   transform: translateY(90%);
+ }
+  .padding-tablet {
+    padding-right: 0;
+  }
+  .footer {
+    font-size: 0.9rem;
+    margin-top: 2.5rem;
+  }
+}
+@media (min-width: 992px) {
+ .services {
+   text-align: left;
+   font-size: 2rem;
+   margin: 0.8rem 0;
+   font-weight: 600;
+ }
+
+ .header-text {
+  line-height: 2;
+   transform: translateY(45%);
+ }
+ h1 {
+   font-size: 6rem;
+ }
+ h3 {
+   font-size: 3rem;
+ }
+ .footer {
+   font-size: 1rem;
+   margin-top: 2.3rem;
+ }
+ section {
+   padding: 2rem 4.5rem;
+ }
+}
